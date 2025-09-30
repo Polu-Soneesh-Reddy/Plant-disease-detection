@@ -1,0 +1,687 @@
+2025-05-04 00:49:42,982 - INFO - Loading model from: D:\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-04 00:49:45,231 - INFO - Model loaded successfully
+2025-05-04 00:49:45,231 - INFO - Starting server with upload folder: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-04 00:49:45,231 - WARNING -  * Debugger is active!
+2025-05-04 00:49:45,245 - INFO -  * Debugger PIN: 412-512-684
+2025-05-04 00:49:45,498 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-04 00:50:19,470 - INFO - 127.0.0.1 - - [04/May/2025 00:50:19] "GET / HTTP/1.1" 200 -
+2025-05-04 00:50:19,587 - INFO - 127.0.0.1 - - [04/May/2025 00:50:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-04 00:50:19,820 - INFO - 127.0.0.1 - - [04/May/2025 00:50:19] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2025-05-04 00:50:19,820 - INFO - 127.0.0.1 - - [04/May/2025 00:50:19] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-05-04 00:50:28,702 - INFO - Received prediction request
+2025-05-04 00:50:28,797 - INFO - Saved image to: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250504_005028.jpg
+2025-05-04 00:50:28,861 - INFO - Image preprocessed successfully
+2025-05-04 00:50:30,681 - INFO - Prediction: Healthy, Confidence: 34.06114959716797%
+2025-05-04 00:50:30,681 - INFO - Saved prediction to history: Healthy
+2025-05-04 00:50:30,681 - INFO - 127.0.0.1 - - [04/May/2025 00:50:30] "POST /predict HTTP/1.1" 200 -
+2025-05-04 00:50:30,697 - INFO - 127.0.0.1 - - [04/May/2025 00:50:30] "GET /static/uploads/plant_20250504_005028.jpg HTTP/1.1" 200 -
+2025-05-04 00:51:06,475 - INFO - Received prediction request
+2025-05-04 00:51:06,555 - INFO - Saved image to: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250504_005106.jpg
+2025-05-04 00:51:06,619 - INFO - Image preprocessed successfully
+2025-05-04 00:51:06,713 - INFO - Prediction: Healthy, Confidence: 34.81113052368164%
+2025-05-04 00:51:06,729 - INFO - Saved prediction to history: Healthy
+2025-05-04 00:51:06,729 - INFO - 127.0.0.1 - - [04/May/2025 00:51:06] "POST /predict HTTP/1.1" 200 -
+2025-05-04 00:51:06,744 - INFO - 127.0.0.1 - - [04/May/2025 00:51:06] "GET /static/uploads/plant_20250504_005106.jpg HTTP/1.1" 200 -
+2025-05-04 00:51:26,781 - INFO - Received prediction request
+2025-05-04 00:51:26,895 - INFO - Saved image to: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250504_005126.jpg
+2025-05-04 00:51:26,974 - INFO - Image preprocessed successfully
+2025-05-04 00:51:27,085 - INFO - Prediction: Healthy, Confidence: 35.065711975097656%
+2025-05-04 00:51:27,101 - INFO - Saved prediction to history: Healthy
+2025-05-04 00:51:27,101 - INFO - 127.0.0.1 - - [04/May/2025 00:51:27] "POST /predict HTTP/1.1" 200 -
+2025-05-04 00:51:27,113 - INFO - 127.0.0.1 - - [04/May/2025 00:51:27] "GET /static/uploads/plant_20250504_005126.jpg HTTP/1.1" 200 -
+2025-05-04 00:52:07,860 - INFO -  * Detected change in 'D:\\Test Sample Plant\\Plant-Disease-Detection\\plant_disease_detection\\app.py', reloading
+2025-05-04 00:52:14,296 - INFO - Loading model from: D:\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-04 00:52:16,463 - INFO - Model loaded successfully
+2025-05-04 00:52:16,463 - INFO - Starting server with upload folder: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-04 00:52:16,479 - WARNING -  * Debugger is active!
+2025-05-04 00:52:16,479 - INFO -  * Debugger PIN: 412-512-684
+2025-05-04 00:52:16,745 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-04 00:52:45,775 - INFO - 127.0.0.1 - - [04/May/2025 00:52:45] "GET / HTTP/1.1" 200 -
+2025-05-04 00:52:45,853 - INFO - 127.0.0.1 - - [04/May/2025 00:52:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-04 00:52:46,103 - INFO - 127.0.0.1 - - [04/May/2025 00:52:46] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2025-05-04 00:52:46,103 - INFO - 127.0.0.1 - - [04/May/2025 00:52:46] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-05-04 00:52:46,469 - INFO - 127.0.0.1 - - [04/May/2025 00:52:46] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-04 00:52:59,471 - INFO - Received prediction request
+2025-05-04 00:52:59,594 - INFO - Saved image to: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250504_005259.jpg
+2025-05-04 00:52:59,673 - INFO - Image preprocessed successfully
+2025-05-04 00:53:01,587 - INFO - Prediction: Powdery, Confidence: 33.97575378417969%
+2025-05-04 00:53:01,587 - INFO - Saved prediction to history: Powdery
+2025-05-04 00:53:01,587 - INFO - 127.0.0.1 - - [04/May/2025 00:53:01] "POST /predict HTTP/1.1" 200 -
+2025-05-04 00:53:01,915 - INFO - 127.0.0.1 - - [04/May/2025 00:53:01] "GET /static/uploads/plant_20250504_005259.jpg HTTP/1.1" 200 -
+2025-05-04 00:53:01,981 - INFO - 127.0.0.1 - - [04/May/2025 00:53:01] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-04 00:53:33,967 - INFO - Received prediction request
+2025-05-04 00:53:34,035 - INFO - Saved image to: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250504_005333.jpg
+2025-05-04 00:53:34,101 - INFO - Image preprocessed successfully
+2025-05-04 00:53:34,210 - INFO - Prediction: Healthy, Confidence: 33.663936614990234%
+2025-05-04 00:53:34,210 - INFO - Saved prediction to history: Healthy
+2025-05-04 00:53:34,210 - INFO - 127.0.0.1 - - [04/May/2025 00:53:34] "POST /predict HTTP/1.1" 200 -
+2025-05-04 00:53:34,539 - INFO - 127.0.0.1 - - [04/May/2025 00:53:34] "GET /static/uploads/plant_20250504_005333.jpg HTTP/1.1" 200 -
+2025-05-04 00:53:34,602 - INFO - 127.0.0.1 - - [04/May/2025 00:53:34] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-04 01:23:05,662 - INFO - Loading model from: D:\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-04 01:23:08,184 - INFO - Model loaded successfully
+2025-05-04 01:23:08,190 - INFO - Starting server with upload folder: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-04 01:23:08,202 - INFO -  * Restarting with stat
+2025-05-04 01:23:13,468 - INFO - Loading model from: D:\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-04 01:23:15,489 - INFO - Model loaded successfully
+2025-05-04 01:23:15,497 - INFO - Starting server with upload folder: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-04 01:23:15,501 - WARNING -  * Debugger is active!
+2025-05-04 01:23:15,513 - INFO -  * Debugger PIN: 610-180-872
+2025-05-04 01:23:15,778 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-04 01:23:54,702 - INFO - 127.0.0.1 - - [04/May/2025 01:23:54] "GET / HTTP/1.1" 200 -
+2025-05-04 01:23:54,818 - INFO - 127.0.0.1 - - [04/May/2025 01:23:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-04 01:23:55,050 - INFO - 127.0.0.1 - - [04/May/2025 01:23:55] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2025-05-04 01:23:55,071 - INFO - 127.0.0.1 - - [04/May/2025 01:23:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-04 01:23:55,431 - INFO - 127.0.0.1 - - [04/May/2025 01:23:55] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-04 01:24:13,864 - INFO - Received prediction request
+2025-05-04 01:24:13,971 - INFO - Saved image to: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250504_012413.jpg
+2025-05-04 01:24:14,035 - INFO - Image preprocessed successfully
+2025-05-04 01:24:16,067 - INFO - Prediction: Healthy, Confidence: 35.673980712890625%
+2025-05-04 01:24:16,067 - INFO - Saved prediction to history: Healthy
+2025-05-04 01:24:16,071 - INFO - 127.0.0.1 - - [04/May/2025 01:24:16] "POST /predict HTTP/1.1" 200 -
+2025-05-04 01:24:16,390 - INFO - 127.0.0.1 - - [04/May/2025 01:24:16] "GET /static/uploads/plant_20250504_012413.jpg HTTP/1.1" 200 -
+2025-05-04 01:24:16,459 - INFO - 127.0.0.1 - - [04/May/2025 01:24:16] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-04 01:25:38,474 - INFO - Loading model from: D:\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-04 01:25:40,429 - INFO - Model loaded successfully
+2025-05-04 01:25:40,429 - INFO - Starting server with upload folder: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-04 01:25:40,449 - INFO -  * Restarting with stat
+2025-05-04 01:25:45,716 - INFO - Loading model from: D:\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-04 01:25:47,770 - INFO - Model loaded successfully
+2025-05-04 01:25:47,774 - INFO - Starting server with upload folder: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-04 01:25:47,780 - WARNING -  * Debugger is active!
+2025-05-04 01:25:47,785 - INFO -  * Debugger PIN: 610-180-872
+2025-05-04 01:25:48,051 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-04 01:25:59,287 - INFO - 127.0.0.1 - - [04/May/2025 01:25:59] "GET / HTTP/1.1" 200 -
+2025-05-04 01:25:59,366 - INFO - 127.0.0.1 - - [04/May/2025 01:25:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-04 01:25:59,608 - INFO - 127.0.0.1 - - [04/May/2025 01:25:59] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2025-05-04 01:25:59,609 - INFO - 127.0.0.1 - - [04/May/2025 01:25:59] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-04 01:25:59,953 - INFO - 127.0.0.1 - - [04/May/2025 01:25:59] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-04 22:36:44,981 - INFO - Loading model from: D:\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-04 22:36:47,597 - INFO - Model loaded successfully
+2025-05-04 22:36:47,597 - INFO - Starting server with upload folder: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-04 22:36:47,667 - INFO -  * Restarting with stat
+2025-05-04 22:36:52,914 - INFO - Loading model from: D:\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-04 22:36:54,925 - INFO - Model loaded successfully
+2025-05-04 22:36:54,928 - INFO - Starting server with upload folder: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-04 22:36:54,934 - WARNING -  * Debugger is active!
+2025-05-04 22:36:54,939 - INFO -  * Debugger PIN: 610-180-872
+2025-05-04 22:36:55,204 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-04 22:37:11,273 - INFO - 127.0.0.1 - - [04/May/2025 22:37:11] "GET / HTTP/1.1" 200 -
+2025-05-04 22:37:11,376 - INFO - 127.0.0.1 - - [04/May/2025 22:37:11] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2025-05-04 22:37:11,666 - INFO - 127.0.0.1 - - [04/May/2025 22:37:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-04 22:37:11,682 - INFO - 127.0.0.1 - - [04/May/2025 22:37:11] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-04 22:37:12,074 - INFO - 127.0.0.1 - - [04/May/2025 22:37:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-04 22:37:12,126 - INFO - 127.0.0.1 - - [04/May/2025 22:37:12] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-04 22:37:32,076 - INFO - Received prediction request
+2025-05-04 22:37:32,325 - INFO - Saved image to: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250504_223732.jpg
+2025-05-04 22:37:32,377 - INFO - Image preprocessed successfully
+2025-05-04 22:37:34,317 - INFO - Prediction: Powdery, Confidence: 34.02754211425781%
+2025-05-04 22:37:34,324 - INFO - Saved prediction to history: Powdery
+2025-05-04 22:37:34,327 - INFO - 127.0.0.1 - - [04/May/2025 22:37:34] "POST /predict HTTP/1.1" 200 -
+2025-05-04 22:37:34,642 - INFO - 127.0.0.1 - - [04/May/2025 22:37:34] "GET /static/uploads/plant_20250504_223732.jpg HTTP/1.1" 200 -
+2025-05-04 22:37:34,704 - INFO - 127.0.0.1 - - [04/May/2025 22:37:34] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 11:44:56,774 - INFO - Loading model from: D:\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-05 11:45:00,511 - INFO - Model loaded successfully
+2025-05-05 11:45:00,536 - INFO - Starting server with upload folder: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-05 11:45:00,638 - INFO -  * Restarting with stat
+2025-05-05 11:45:09,363 - INFO - Loading model from: D:\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-05 11:45:11,392 - INFO - Model loaded successfully
+2025-05-05 11:45:11,408 - INFO - Starting server with upload folder: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-05 11:45:11,408 - WARNING -  * Debugger is active!
+2025-05-05 11:45:11,417 - INFO -  * Debugger PIN: 610-180-872
+2025-05-05 11:45:11,690 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-05 11:45:56,529 - INFO - 127.0.0.1 - - [05/May/2025 11:45:56] "GET / HTTP/1.1" 200 -
+2025-05-05 11:45:56,668 - INFO - 127.0.0.1 - - [05/May/2025 11:45:56] "GET /static/images/upload-icon.png HTTP/1.1" 200 -
+2025-05-05 11:45:56,697 - INFO - 127.0.0.1 - - [05/May/2025 11:45:56] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-05 11:45:56,888 - INFO - 127.0.0.1 - - [05/May/2025 11:45:56] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-05-05 11:45:58,526 - INFO - 127.0.0.1 - - [05/May/2025 11:45:58] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 11:45:58,530 - INFO - 127.0.0.1 - - [05/May/2025 11:45:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-05 11:46:41,814 - INFO - Received prediction request
+2025-05-05 11:46:42,053 - INFO - Saved image to: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250505_114641.jpg
+2025-05-05 11:46:42,308 - INFO - Image preprocessed successfully
+2025-05-05 11:46:44,274 - INFO - Prediction: Healthy, Confidence: 36.04862594604492%
+2025-05-05 11:46:44,274 - INFO - Saved prediction to history: Healthy
+2025-05-05 11:46:44,274 - INFO - 127.0.0.1 - - [05/May/2025 11:46:44] "POST /predict HTTP/1.1" 200 -
+2025-05-05 11:46:44,286 - INFO - 127.0.0.1 - - [05/May/2025 11:46:44] "GET /static/uploads/plant_20250505_114641.jpg HTTP/1.1" 200 -
+2025-05-05 11:46:44,665 - INFO - 127.0.0.1 - - [05/May/2025 11:46:44] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 11:47:05,349 - INFO - Received prediction request
+2025-05-05 11:47:05,384 - INFO - Saved image to: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250505_114705.jpg
+2025-05-05 11:47:05,413 - INFO - Image preprocessed successfully
+2025-05-05 11:47:05,555 - INFO - Prediction: Healthy, Confidence: 34.12815856933594%
+2025-05-05 11:47:05,555 - INFO - Saved prediction to history: Healthy
+2025-05-05 11:47:05,555 - INFO - 127.0.0.1 - - [05/May/2025 11:47:05] "POST /predict HTTP/1.1" 200 -
+2025-05-05 11:47:05,654 - INFO - 127.0.0.1 - - [05/May/2025 11:47:05] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 11:47:05,869 - INFO - 127.0.0.1 - - [05/May/2025 11:47:05] "GET /static/uploads/plant_20250505_114705.jpg HTTP/1.1" 200 -
+2025-05-05 11:47:22,576 - INFO - Received prediction request
+2025-05-05 11:47:22,658 - INFO - Saved image to: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250505_114722.jpg
+2025-05-05 11:47:22,720 - INFO - Image preprocessed successfully
+2025-05-05 11:47:22,831 - INFO - Prediction: Healthy, Confidence: 35.49708557128906%
+2025-05-05 11:47:22,831 - INFO - Saved prediction to history: Healthy
+2025-05-05 11:47:22,831 - INFO - 127.0.0.1 - - [05/May/2025 11:47:22] "POST /predict HTTP/1.1" 200 -
+2025-05-05 11:47:23,148 - INFO - 127.0.0.1 - - [05/May/2025 11:47:23] "GET /static/uploads/plant_20250505_114722.jpg HTTP/1.1" 200 -
+2025-05-05 11:47:23,205 - INFO - 127.0.0.1 - - [05/May/2025 11:47:23] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 11:49:16,932 - INFO - Loading model from: D:\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-05 11:49:18,884 - INFO - Model loaded successfully
+2025-05-05 11:49:18,884 - INFO - Starting server with upload folder: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-05 11:49:18,901 - INFO -  * Restarting with stat
+2025-05-05 11:49:24,023 - INFO - Loading model from: D:\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-05 11:49:25,986 - INFO - Model loaded successfully
+2025-05-05 11:49:26,001 - INFO - Starting server with upload folder: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-05 11:49:26,001 - WARNING -  * Debugger is active!
+2025-05-05 11:49:26,014 - INFO -  * Debugger PIN: 610-180-872
+2025-05-05 11:49:26,261 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-05 11:49:54,914 - INFO - 127.0.0.1 - - [05/May/2025 11:49:54] "GET / HTTP/1.1" 200 -
+2025-05-05 11:49:55,084 - INFO - 127.0.0.1 - - [05/May/2025 11:49:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-05 11:49:55,084 - INFO - 127.0.0.1 - - [05/May/2025 11:49:55] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2025-05-05 11:49:55,263 - INFO - 127.0.0.1 - - [05/May/2025 11:49:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-05 11:49:55,682 - INFO - 127.0.0.1 - - [05/May/2025 11:49:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-05 11:49:55,739 - INFO - 127.0.0.1 - - [05/May/2025 11:49:55] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 11:50:30,653 - INFO - Received prediction request
+2025-05-05 11:50:30,734 - INFO - Saved image to: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250505_115030.jpg
+2025-05-05 11:50:30,788 - INFO - Image preprocessed successfully
+2025-05-05 11:50:32,692 - INFO - Prediction: Powdery, Confidence: 34.050628662109375%
+2025-05-05 11:50:32,695 - INFO - Saved prediction to history: Powdery
+2025-05-05 11:50:32,695 - INFO - 127.0.0.1 - - [05/May/2025 11:50:32] "POST /predict HTTP/1.1" 200 -
+2025-05-05 11:50:33,005 - INFO - 127.0.0.1 - - [05/May/2025 11:50:33] "GET /static/uploads/plant_20250505_115030.jpg HTTP/1.1" 200 -
+2025-05-05 11:50:33,070 - INFO - 127.0.0.1 - - [05/May/2025 11:50:33] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 12:30:07,096 - INFO - Loading model from: D:\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-05 12:30:09,516 - INFO - Model loaded successfully
+2025-05-05 12:30:09,516 - INFO - Starting server with upload folder: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-05 12:30:09,534 - INFO -  * Restarting with stat
+2025-05-05 12:30:15,173 - INFO - Loading model from: D:\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-05 12:30:17,109 - INFO - Model loaded successfully
+2025-05-05 12:30:17,125 - INFO - Starting server with upload folder: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-05 12:30:17,127 - WARNING -  * Debugger is active!
+2025-05-05 12:30:17,137 - INFO -  * Debugger PIN: 610-180-872
+2025-05-05 12:30:17,393 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-05 12:32:44,191 - INFO - 127.0.0.1 - - [05/May/2025 12:32:44] "GET / HTTP/1.1" 200 -
+2025-05-05 12:32:44,360 - INFO - 127.0.0.1 - - [05/May/2025 12:32:44] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2025-05-05 12:32:44,368 - INFO - 127.0.0.1 - - [05/May/2025 12:32:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-05 12:32:44,562 - INFO - 127.0.0.1 - - [05/May/2025 12:32:44] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-05 12:32:44,888 - INFO - 127.0.0.1 - - [05/May/2025 12:32:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-05 12:32:44,918 - INFO - 127.0.0.1 - - [05/May/2025 12:32:44] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 12:35:59,334 - INFO - Received prediction request
+2025-05-05 12:35:59,445 - INFO - Saved image to: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250505_123559.jpg
+2025-05-05 12:35:59,492 - INFO - Image preprocessed successfully
+2025-05-05 12:36:01,279 - INFO - Prediction: Powdery, Confidence: 34.050628662109375%
+2025-05-05 12:36:01,279 - INFO - Saved prediction to history: Powdery
+2025-05-05 12:36:01,279 - INFO - 127.0.0.1 - - [05/May/2025 12:36:01] "POST /predict HTTP/1.1" 200 -
+2025-05-05 12:36:01,294 - INFO - 127.0.0.1 - - [05/May/2025 12:36:01] "GET /static/uploads/plant_20250505_123559.jpg HTTP/1.1" 200 -
+2025-05-05 12:36:01,664 - INFO - 127.0.0.1 - - [05/May/2025 12:36:01] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 12:36:29,178 - INFO - Received prediction request
+2025-05-05 12:36:29,257 - INFO - Saved image to: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250505_123629.jpg
+2025-05-05 12:36:29,321 - INFO - Image preprocessed successfully
+2025-05-05 12:36:29,431 - INFO - Prediction: Powdery, Confidence: 33.836395263671875%
+2025-05-05 12:36:29,431 - INFO - Saved prediction to history: Powdery
+2025-05-05 12:36:29,442 - INFO - 127.0.0.1 - - [05/May/2025 12:36:29] "POST /predict HTTP/1.1" 200 -
+2025-05-05 12:36:29,447 - INFO - 127.0.0.1 - - [05/May/2025 12:36:29] "GET /static/uploads/plant_20250505_123629.jpg HTTP/1.1" 200 -
+2025-05-05 12:36:29,814 - INFO - 127.0.0.1 - - [05/May/2025 12:36:29] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 12:37:39,806 - INFO - Received prediction request
+2025-05-05 12:37:39,981 - INFO - Saved image to: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250505_123739.jpg
+2025-05-05 12:37:40,060 - INFO - Image preprocessed successfully
+2025-05-05 12:37:40,171 - INFO - Prediction: Powdery, Confidence: 34.14618682861328%
+2025-05-05 12:37:40,171 - INFO - Saved prediction to history: Powdery
+2025-05-05 12:37:40,171 - INFO - 127.0.0.1 - - [05/May/2025 12:37:40] "POST /predict HTTP/1.1" 200 -
+2025-05-05 12:37:40,188 - INFO - 127.0.0.1 - - [05/May/2025 12:37:40] "GET /static/uploads/plant_20250505_123739.jpg HTTP/1.1" 200 -
+2025-05-05 12:37:40,556 - INFO - 127.0.0.1 - - [05/May/2025 12:37:40] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 12:38:19,714 - INFO - Received prediction request
+2025-05-05 12:38:19,792 - INFO - Saved image to: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250505_123819.jpg
+2025-05-05 12:38:19,840 - INFO - Image preprocessed successfully
+2025-05-05 12:38:19,950 - INFO - Prediction: Healthy, Confidence: 35.98028564453125%
+2025-05-05 12:38:19,950 - INFO - Saved prediction to history: Healthy
+2025-05-05 12:38:19,950 - INFO - 127.0.0.1 - - [05/May/2025 12:38:19] "POST /predict HTTP/1.1" 200 -
+2025-05-05 12:38:20,031 - INFO - 127.0.0.1 - - [05/May/2025 12:38:20] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 12:38:20,273 - INFO - 127.0.0.1 - - [05/May/2025 12:38:20] "GET /static/uploads/plant_20250505_123819.jpg HTTP/1.1" 200 -
+2025-05-05 12:38:31,644 - INFO - Received prediction request
+2025-05-05 12:38:31,717 - INFO - Saved image to: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250505_123831.jpg
+2025-05-05 12:38:31,765 - INFO - Image preprocessed successfully
+2025-05-05 12:38:31,892 - INFO - Prediction: Healthy, Confidence: 35.98028564453125%
+2025-05-05 12:38:31,892 - INFO - Saved prediction to history: Healthy
+2025-05-05 12:38:31,892 - INFO - 127.0.0.1 - - [05/May/2025 12:38:31] "POST /predict HTTP/1.1" 200 -
+2025-05-05 12:38:32,205 - INFO - 127.0.0.1 - - [05/May/2025 12:38:32] "GET /static/uploads/plant_20250505_123831.jpg HTTP/1.1" 200 -
+2025-05-05 12:38:32,268 - INFO - 127.0.0.1 - - [05/May/2025 12:38:32] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 12:38:48,653 - INFO - Received prediction request
+2025-05-05 12:38:48,744 - INFO - Saved image to: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250505_123848.jpg
+2025-05-05 12:38:48,808 - INFO - Image preprocessed successfully
+2025-05-05 12:38:48,926 - INFO - Prediction: Healthy, Confidence: 35.657508850097656%
+2025-05-05 12:38:48,934 - INFO - Saved prediction to history: Healthy
+2025-05-05 12:38:48,934 - INFO - 127.0.0.1 - - [05/May/2025 12:38:48] "POST /predict HTTP/1.1" 200 -
+2025-05-05 12:38:49,256 - INFO - 127.0.0.1 - - [05/May/2025 12:38:49] "GET /static/uploads/plant_20250505_123848.jpg HTTP/1.1" 200 -
+2025-05-05 12:38:49,320 - INFO - 127.0.0.1 - - [05/May/2025 12:38:49] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 12:39:28,129 - INFO - Received prediction request
+2025-05-05 12:39:28,210 - INFO - Saved image to: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250505_123928.jpg
+2025-05-05 12:39:28,265 - INFO - Image preprocessed successfully
+2025-05-05 12:39:28,377 - INFO - Prediction: Healthy, Confidence: 34.50319290161133%
+2025-05-05 12:39:28,377 - INFO - Saved prediction to history: Healthy
+2025-05-05 12:39:28,377 - INFO - 127.0.0.1 - - [05/May/2025 12:39:28] "POST /predict HTTP/1.1" 200 -
+2025-05-05 12:39:28,700 - INFO - 127.0.0.1 - - [05/May/2025 12:39:28] "GET /static/uploads/plant_20250505_123928.jpg HTTP/1.1" 200 -
+2025-05-05 12:39:28,748 - INFO - 127.0.0.1 - - [05/May/2025 12:39:28] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 12:41:48,265 - INFO - 127.0.0.1 - - [05/May/2025 12:41:48] "GET / HTTP/1.1" 200 -
+2025-05-05 12:41:48,279 - INFO - 127.0.0.1 - - [05/May/2025 12:41:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-05 12:41:48,460 - INFO - 127.0.0.1 - - [05/May/2025 12:41:48] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2025-05-05 12:41:48,587 - INFO - 127.0.0.1 - - [05/May/2025 12:41:48] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-05 12:41:48,954 - INFO - 127.0.0.1 - - [05/May/2025 12:41:48] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 12:42:27,568 - INFO - Loading model from: D:\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-05 12:42:29,573 - INFO - Model loaded successfully
+2025-05-05 12:42:29,573 - INFO - Starting server with upload folder: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-05 12:42:29,595 - INFO -  * Restarting with stat
+2025-05-05 12:42:34,998 - INFO - Loading model from: D:\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-05 12:42:37,057 - INFO - Model loaded successfully
+2025-05-05 12:42:37,057 - INFO - Starting server with upload folder: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-05 12:42:37,067 - WARNING -  * Debugger is active!
+2025-05-05 12:42:37,073 - INFO -  * Debugger PIN: 610-180-872
+2025-05-05 12:42:37,328 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-05 12:43:08,858 - INFO - 127.0.0.1 - - [05/May/2025 12:43:08] "GET / HTTP/1.1" 200 -
+2025-05-05 12:43:08,987 - INFO - 127.0.0.1 - - [05/May/2025 12:43:08] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2025-05-05 12:43:08,987 - INFO - 127.0.0.1 - - [05/May/2025 12:43:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-05 12:43:09,184 - INFO - 127.0.0.1 - - [05/May/2025 12:43:09] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-05 12:43:09,548 - INFO - 127.0.0.1 - - [05/May/2025 12:43:09] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 12:43:21,883 - INFO - Received prediction request
+2025-05-05 12:43:21,930 - INFO - Saved image to: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250505_124321.jpg
+2025-05-05 12:43:21,963 - INFO - Image preprocessed successfully
+2025-05-05 12:43:23,869 - INFO - Prediction: Powdery, Confidence: 35.97032928466797%
+2025-05-05 12:43:23,870 - INFO - Saved prediction to history: Powdery
+2025-05-05 12:43:23,870 - INFO - 127.0.0.1 - - [05/May/2025 12:43:23] "POST /predict HTTP/1.1" 200 -
+2025-05-05 12:43:24,177 - INFO - 127.0.0.1 - - [05/May/2025 12:43:24] "GET /static/uploads/plant_20250505_124321.jpg HTTP/1.1" 200 -
+2025-05-05 12:43:24,243 - INFO - 127.0.0.1 - - [05/May/2025 12:43:24] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 12:44:35,435 - INFO - Received prediction request
+2025-05-05 12:44:35,530 - INFO - Saved image to: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250505_124435.jpg
+2025-05-05 12:44:35,588 - INFO - Image preprocessed successfully
+2025-05-05 12:44:35,700 - INFO - Prediction: Healthy, Confidence: 33.89385223388672%
+2025-05-05 12:44:35,702 - INFO - Saved prediction to history: Healthy
+2025-05-05 12:44:35,702 - INFO - 127.0.0.1 - - [05/May/2025 12:44:35] "POST /predict HTTP/1.1" 200 -
+2025-05-05 12:44:35,709 - INFO - 127.0.0.1 - - [05/May/2025 12:44:35] "GET /static/uploads/plant_20250505_124435.jpg HTTP/1.1" 200 -
+2025-05-05 12:44:36,077 - INFO - 127.0.0.1 - - [05/May/2025 12:44:36] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 12:48:59,108 - INFO - Received prediction request
+2025-05-05 12:48:59,108 - INFO - Saved image to: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250505_124859.jpg
+2025-05-05 12:48:59,131 - INFO - Image preprocessed successfully
+2025-05-05 12:48:59,254 - INFO - Prediction: Powdery, Confidence: 35.97032928466797%
+2025-05-05 12:48:59,257 - INFO - Saved prediction to history: Powdery
+2025-05-05 12:48:59,257 - INFO - 127.0.0.1 - - [05/May/2025 12:48:59] "POST /predict HTTP/1.1" 200 -
+2025-05-05 12:48:59,437 - INFO - 127.0.0.1 - - [05/May/2025 12:48:59] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 12:48:59,566 - INFO - 127.0.0.1 - - [05/May/2025 12:48:59] "GET /static/uploads/plant_20250505_124859.jpg HTTP/1.1" 200 -
+2025-05-05 23:04:44,276 - INFO - Loading model from: D:\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-05 23:04:47,732 - INFO - Model loaded successfully
+2025-05-05 23:04:47,734 - INFO - Starting server with upload folder: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-05 23:04:47,777 - INFO -  * Restarting with stat
+2025-05-05 23:04:53,314 - INFO - Loading model from: D:\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-05 23:04:55,398 - INFO - Model loaded successfully
+2025-05-05 23:04:55,400 - INFO - Starting server with upload folder: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-05 23:04:55,400 - WARNING -  * Debugger is active!
+2025-05-05 23:04:55,413 - INFO -  * Debugger PIN: 610-180-872
+2025-05-05 23:04:55,678 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-05 23:05:37,749 - INFO - 127.0.0.1 - - [05/May/2025 23:05:37] "GET / HTTP/1.1" 200 -
+2025-05-05 23:05:37,877 - INFO - 127.0.0.1 - - [05/May/2025 23:05:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-05 23:05:38,108 - INFO - 127.0.0.1 - - [05/May/2025 23:05:38] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2025-05-05 23:05:38,129 - INFO - 127.0.0.1 - - [05/May/2025 23:05:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-05 23:05:40,103 - INFO - 127.0.0.1 - - [05/May/2025 23:05:40] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 23:05:40,104 - INFO - 127.0.0.1 - - [05/May/2025 23:05:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-05 23:06:26,209 - INFO - Received prediction request
+2025-05-05 23:06:26,421 - INFO - Saved image to: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250505_230626.jpg
+2025-05-05 23:06:26,722 - INFO - Image preprocessed successfully
+2025-05-05 23:06:30,657 - INFO - Prediction: Powdery, Confidence: 34.29140090942383%
+2025-05-05 23:06:30,657 - INFO - Saved prediction to history: Powdery
+2025-05-05 23:06:30,673 - INFO - 127.0.0.1 - - [05/May/2025 23:06:30] "POST /predict HTTP/1.1" 200 -
+2025-05-05 23:06:30,995 - INFO - 127.0.0.1 - - [05/May/2025 23:06:30] "GET /static/uploads/plant_20250505_230626.jpg HTTP/1.1" 200 -
+2025-05-05 23:06:31,065 - INFO - 127.0.0.1 - - [05/May/2025 23:06:31] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 23:07:03,566 - INFO - Received prediction request
+2025-05-05 23:07:03,642 - INFO - Saved image to: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250505_230703.jpg
+2025-05-05 23:07:03,700 - INFO - Image preprocessed successfully
+2025-05-05 23:07:03,816 - INFO - Prediction: Healthy, Confidence: 36.09419250488281%
+2025-05-05 23:07:03,816 - INFO - Saved prediction to history: Healthy
+2025-05-05 23:07:03,816 - INFO - 127.0.0.1 - - [05/May/2025 23:07:03] "POST /predict HTTP/1.1" 200 -
+2025-05-05 23:07:04,131 - INFO - 127.0.0.1 - - [05/May/2025 23:07:04] "GET /static/uploads/plant_20250505_230703.jpg HTTP/1.1" 200 -
+2025-05-05 23:07:04,208 - INFO - 127.0.0.1 - - [05/May/2025 23:07:04] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 23:08:15,810 - INFO - Received prediction request
+2025-05-05 23:08:15,842 - INFO - Saved image to: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250505_230815.jpg
+2025-05-05 23:08:15,867 - INFO - Image preprocessed successfully
+2025-05-05 23:08:15,987 - INFO - Prediction: Powdery, Confidence: 34.273956298828125%
+2025-05-05 23:08:15,989 - INFO - Saved prediction to history: Powdery
+2025-05-05 23:08:15,990 - INFO - 127.0.0.1 - - [05/May/2025 23:08:15] "POST /predict HTTP/1.1" 200 -
+2025-05-05 23:08:16,120 - INFO - 127.0.0.1 - - [05/May/2025 23:08:16] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 23:08:16,301 - INFO - 127.0.0.1 - - [05/May/2025 23:08:16] "GET /static/uploads/plant_20250505_230815.jpg HTTP/1.1" 200 -
+2025-05-05 23:08:42,863 - INFO - Received prediction request
+2025-05-05 23:08:43,003 - INFO - Saved image to: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250505_230842.jpg
+2025-05-05 23:08:43,056 - INFO - Image preprocessed successfully
+2025-05-05 23:08:43,164 - INFO - Prediction: Healthy, Confidence: 33.65692138671875%
+2025-05-05 23:08:43,164 - INFO - Saved prediction to history: Healthy
+2025-05-05 23:08:43,177 - INFO - 127.0.0.1 - - [05/May/2025 23:08:43] "POST /predict HTTP/1.1" 200 -
+2025-05-05 23:08:43,493 - INFO - 127.0.0.1 - - [05/May/2025 23:08:43] "GET /static/uploads/plant_20250505_230842.jpg HTTP/1.1" 200 -
+2025-05-05 23:08:43,560 - INFO - 127.0.0.1 - - [05/May/2025 23:08:43] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 23:09:02,708 - INFO - Received prediction request
+2025-05-05 23:09:02,815 - INFO - Saved image to: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250505_230902.jpg
+2025-05-05 23:09:02,894 - INFO - Image preprocessed successfully
+2025-05-05 23:09:03,037 - INFO - Prediction: Powdery, Confidence: 34.26412582397461%
+2025-05-05 23:09:03,037 - INFO - Saved prediction to history: Powdery
+2025-05-05 23:09:03,037 - INFO - 127.0.0.1 - - [05/May/2025 23:09:03] "POST /predict HTTP/1.1" 200 -
+2025-05-05 23:09:03,358 - INFO - 127.0.0.1 - - [05/May/2025 23:09:03] "GET /static/uploads/plant_20250505_230902.jpg HTTP/1.1" 200 -
+2025-05-05 23:09:03,436 - INFO - 127.0.0.1 - - [05/May/2025 23:09:03] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 23:09:15,503 - INFO - Received prediction request
+2025-05-05 23:09:15,614 - INFO - Saved image to: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250505_230915.jpg
+2025-05-05 23:09:15,690 - INFO - Image preprocessed successfully
+2025-05-05 23:09:15,817 - INFO - Prediction: Powdery, Confidence: 33.73797607421875%
+2025-05-05 23:09:15,833 - INFO - Saved prediction to history: Powdery
+2025-05-05 23:09:15,833 - INFO - 127.0.0.1 - - [05/May/2025 23:09:15] "POST /predict HTTP/1.1" 200 -
+2025-05-05 23:09:16,167 - INFO - 127.0.0.1 - - [05/May/2025 23:09:16] "GET /static/uploads/plant_20250505_230915.jpg HTTP/1.1" 200 -
+2025-05-05 23:09:16,231 - INFO - 127.0.0.1 - - [05/May/2025 23:09:16] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 23:11:05,047 - INFO - Received prediction request
+2025-05-05 23:11:05,047 - INFO - Saved image to: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250505_231105.jpg
+2025-05-05 23:11:05,426 - INFO - Image preprocessed successfully
+2025-05-05 23:11:05,567 - INFO - Prediction: Powdery, Confidence: 35.97032928466797%
+2025-05-05 23:11:05,569 - INFO - Saved prediction to history: Powdery
+2025-05-05 23:11:05,570 - INFO - 127.0.0.1 - - [05/May/2025 23:11:05] "POST /predict HTTP/1.1" 200 -
+2025-05-05 23:11:05,574 - INFO - 127.0.0.1 - - [05/May/2025 23:11:05] "GET /static/uploads/plant_20250505_231105.jpg HTTP/1.1" 200 -
+2025-05-05 23:11:05,926 - INFO - 127.0.0.1 - - [05/May/2025 23:11:05] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 23:11:45,532 - INFO - 127.0.0.1 - - [05/May/2025 23:11:45] "GET / HTTP/1.1" 200 -
+2025-05-05 23:11:45,747 - INFO - 127.0.0.1 - - [05/May/2025 23:11:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-05 23:11:45,878 - INFO - 127.0.0.1 - - [05/May/2025 23:11:45] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2025-05-05 23:11:45,878 - INFO - 127.0.0.1 - - [05/May/2025 23:11:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-05 23:11:45,940 - INFO - 127.0.0.1 - - [05/May/2025 23:11:45] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 23:13:54,154 - INFO - 127.0.0.1 - - [05/May/2025 23:13:54] "GET / HTTP/1.1" 200 -
+2025-05-05 23:13:54,355 - INFO - 127.0.0.1 - - [05/May/2025 23:13:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-05 23:13:54,480 - INFO - 127.0.0.1 - - [05/May/2025 23:13:54] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2025-05-05 23:13:54,482 - INFO - 127.0.0.1 - - [05/May/2025 23:13:54] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-05 23:13:54,538 - INFO - 127.0.0.1 - - [05/May/2025 23:13:54] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 23:17:48,726 - INFO - Received prediction request
+2025-05-05 23:17:48,760 - INFO - Saved image to: D:\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250505_231748.jpg
+2025-05-05 23:17:48,779 - INFO - Image preprocessed successfully
+2025-05-05 23:17:48,890 - INFO - Prediction: Powdery, Confidence: 33.81850814819336%
+2025-05-05 23:17:48,907 - INFO - Saved prediction to history: Powdery
+2025-05-05 23:17:48,908 - INFO - 127.0.0.1 - - [05/May/2025 23:17:48] "POST /predict HTTP/1.1" 200 -
+2025-05-05 23:17:49,052 - INFO - 127.0.0.1 - - [05/May/2025 23:17:49] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-05 23:17:49,224 - INFO - 127.0.0.1 - - [05/May/2025 23:17:49] "GET /static/uploads/plant_20250505_231748.jpg HTTP/1.1" 200 -
+2025-05-05 23:35:09,394 - INFO - Loading model from: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-05 23:35:12,850 - INFO - Model loaded successfully
+2025-05-05 23:35:12,850 - INFO - Starting server with upload folder: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-05 23:35:12,893 - INFO -  * Restarting with stat
+2025-05-05 23:35:18,211 - INFO - Loading model from: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-05 23:35:20,209 - INFO - Model loaded successfully
+2025-05-05 23:35:20,209 - INFO - Starting server with upload folder: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-05 23:35:20,225 - WARNING -  * Debugger is active!
+2025-05-05 23:35:20,236 - INFO -  * Debugger PIN: 221-383-629
+2025-05-05 23:35:20,508 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-05 23:35:33,323 - INFO - 127.0.0.1 - - [05/May/2025 23:35:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-05 23:36:27,630 - INFO - Received prediction request
+2025-05-05 23:36:27,929 - INFO - Saved image to: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250505_233627.jpg
+2025-05-05 23:36:28,283 - INFO - Image preprocessed successfully
+2025-05-05 23:36:32,789 - INFO - Prediction: Powdery, Confidence: 33.95256805419922%
+2025-05-05 23:36:32,820 - INFO - Saved prediction to history: Powdery
+2025-05-05 23:36:32,824 - INFO - 127.0.0.1 - - [05/May/2025 23:36:32] "POST /predict HTTP/1.1" 200 -
+2025-05-05 23:36:32,905 - INFO - 127.0.0.1 - - [05/May/2025 23:36:32] "GET /static/uploads/plant_20250505_233627.jpg HTTP/1.1" 200 -
+2025-05-05 23:36:36,460 - INFO - 127.0.0.1 - - [05/May/2025 23:36:36] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-11 23:02:36,121 - INFO - Updated permissions for directory: D:\Final Train\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-11 23:02:36,137 - INFO - Updated permissions for directory: D:\Final Train\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static
+2025-05-11 23:02:36,138 - INFO - Loading model from: D:\Final Train\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-11 23:02:38,819 - INFO - Model loaded successfully
+2025-05-11 23:02:38,819 - INFO - Starting server with upload folder: D:\Final Train\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-11 23:02:38,858 - INFO -  * Restarting with stat
+2025-05-11 23:02:44,617 - INFO - Updated permissions for directory: D:\Final Train\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-11 23:02:44,617 - INFO - Updated permissions for directory: D:\Final Train\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static
+2025-05-11 23:02:44,617 - INFO - Loading model from: D:\Final Train\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-11 23:02:46,669 - INFO - Model loaded successfully
+2025-05-11 23:02:46,669 - INFO - Starting server with upload folder: D:\Final Train\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-11 23:02:46,685 - WARNING -  * Debugger is active!
+2025-05-11 23:02:46,693 - INFO -  * Debugger PIN: 525-560-907
+2025-05-11 23:02:47,278 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-11 23:03:22,701 - INFO - 127.0.0.1 - - [11/May/2025 23:03:22] "GET / HTTP/1.1" 200 -
+2025-05-11 23:03:22,821 - INFO - 127.0.0.1 - - [11/May/2025 23:03:22] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-11 23:03:23,041 - INFO - 127.0.0.1 - - [11/May/2025 23:03:23] "GET /static/images/upload-icon.png HTTP/1.1" 200 -
+2025-05-11 23:03:23,073 - INFO - 127.0.0.1 - - [11/May/2025 23:03:23] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-05-11 23:03:23,471 - INFO - 127.0.0.1 - - [11/May/2025 23:03:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-11 23:03:23,524 - INFO - 127.0.0.1 - - [11/May/2025 23:03:23] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-11 23:09:47,821 - INFO - Updated permissions for directory: D:\Final Train\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-11 23:09:47,821 - INFO - Updated permissions for directory: D:\Final Train\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static
+2025-05-11 23:09:47,821 - INFO - Loading model from: D:\Final Train\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-11 23:09:49,855 - INFO - Model loaded successfully
+2025-05-11 23:09:49,855 - INFO - Starting server with upload folder: D:\Final Train\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-11 23:09:49,874 - INFO -  * Restarting with stat
+2025-05-11 23:09:55,298 - INFO - Updated permissions for directory: D:\Final Train\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-11 23:09:55,298 - INFO - Updated permissions for directory: D:\Final Train\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static
+2025-05-11 23:09:55,298 - INFO - Loading model from: D:\Final Train\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-11 23:09:57,290 - INFO - Model loaded successfully
+2025-05-11 23:09:57,290 - INFO - Starting server with upload folder: D:\Final Train\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-11 23:09:57,306 - WARNING -  * Debugger is active!
+2025-05-11 23:09:57,308 - INFO -  * Debugger PIN: 525-560-907
+2025-05-11 23:09:57,566 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-11 23:10:10,663 - INFO - 127.0.0.1 - - [11/May/2025 23:10:10] "GET / HTTP/1.1" 200 -
+2025-05-11 23:10:10,746 - INFO - 127.0.0.1 - - [11/May/2025 23:10:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 23:10:11,013 - INFO - 127.0.0.1 - - [11/May/2025 23:10:11] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2025-05-11 23:10:11,013 - INFO - 127.0.0.1 - - [11/May/2025 23:10:11] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-11 23:10:11,379 - INFO - 127.0.0.1 - - [11/May/2025 23:10:11] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-11 23:14:15,805 - INFO - Updated permissions for directory: D:\Final Train\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-11 23:14:15,805 - INFO - Updated permissions for directory: D:\Final Train\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static
+2025-05-11 23:14:15,805 - INFO - Loading model from: D:\Final Train\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-11 23:14:17,873 - INFO - Model loaded successfully
+2025-05-11 23:14:17,873 - INFO - Starting server with upload folder: D:\Final Train\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-11 23:14:17,897 - INFO -  * Restarting with stat
+2025-05-11 23:14:23,382 - INFO - Updated permissions for directory: D:\Final Train\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-11 23:14:23,382 - INFO - Updated permissions for directory: D:\Final Train\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static
+2025-05-11 23:14:23,382 - INFO - Loading model from: D:\Final Train\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-11 23:14:25,527 - INFO - Model loaded successfully
+2025-05-11 23:14:25,527 - INFO - Starting server with upload folder: D:\Final Train\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-11 23:14:25,535 - WARNING -  * Debugger is active!
+2025-05-11 23:14:25,544 - INFO -  * Debugger PIN: 525-560-907
+2025-05-11 23:14:25,810 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-11 23:14:59,578 - INFO - 127.0.0.1 - - [11/May/2025 23:14:59] "GET / HTTP/1.1" 200 -
+2025-05-11 23:14:59,700 - INFO - 127.0.0.1 - - [11/May/2025 23:14:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-11 23:14:59,934 - INFO - 127.0.0.1 - - [11/May/2025 23:14:59] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2025-05-11 23:14:59,935 - INFO - 127.0.0.1 - - [11/May/2025 23:14:59] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-11 23:15:00,378 - INFO - 127.0.0.1 - - [11/May/2025 23:15:00] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-11 23:16:28,779 - INFO -  * Detected change in 'D:\\Final Train\\Test Sample Plant\\Plant-Disease-Detection\\plant_disease_detection\\app.py', reloading
+2025-05-11 23:16:29,503 - INFO -  * Restarting with stat
+2025-05-11 23:16:35,864 - INFO - Updated permissions for directory: D:\Final Train\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-11 23:16:35,864 - INFO - Updated permissions for directory: D:\Final Train\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static
+2025-05-11 23:16:35,869 - INFO - Loading model from: D:\Final Train\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-11 23:16:38,401 - INFO - Model loaded successfully
+2025-05-11 23:16:38,405 - INFO - Starting server with upload folder: D:\Final Train\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-11 23:16:38,405 - WARNING -  * Debugger is active!
+2025-05-11 23:16:38,419 - INFO -  * Debugger PIN: 525-560-907
+2025-05-11 23:16:38,692 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-11 23:17:06,751 - INFO - 127.0.0.1 - - [11/May/2025 23:17:06] "GET / HTTP/1.1" 200 -
+2025-05-11 23:17:06,864 - INFO - 127.0.0.1 - - [11/May/2025 23:17:06] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-11 23:17:07,102 - INFO - 127.0.0.1 - - [11/May/2025 23:17:07] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-11 23:17:07,536 - INFO - 127.0.0.1 - - [11/May/2025 23:17:07] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-25 19:42:57,360 - INFO - Updated permissions for directory: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-25 19:42:57,360 - INFO - Updated permissions for directory: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static
+2025-05-25 19:42:57,360 - INFO - Loading model from: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-25 19:43:00,784 - INFO - Model loaded successfully
+2025-05-25 19:43:00,800 - INFO - Starting server with upload folder: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-25 19:43:00,841 - INFO -  * Restarting with stat
+2025-05-25 19:43:06,423 - INFO - Updated permissions for directory: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-25 19:43:06,423 - INFO - Updated permissions for directory: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static
+2025-05-25 19:43:06,423 - INFO - Loading model from: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-25 19:43:08,436 - INFO - Model loaded successfully
+2025-05-25 19:43:08,436 - INFO - Starting server with upload folder: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-25 19:43:08,454 - WARNING -  * Debugger is active!
+2025-05-25 19:43:08,458 - INFO -  * Debugger PIN: 221-383-629
+2025-05-25 19:43:08,735 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-25 19:43:24,493 - INFO - 127.0.0.1 - - [25/May/2025 19:43:24] "GET / HTTP/1.1" 200 -
+2025-05-25 19:43:24,611 - INFO - 127.0.0.1 - - [25/May/2025 19:43:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-25 19:43:24,849 - INFO - 127.0.0.1 - - [25/May/2025 19:43:24] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-25 19:43:25,417 - INFO - 127.0.0.1 - - [25/May/2025 19:43:25] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2025-05-25 19:43:25,417 - INFO - 127.0.0.1 - - [25/May/2025 19:43:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-25 19:43:44,486 - INFO - 127.0.0.1 - - [25/May/2025 19:43:44] "[33mPOST /upload HTTP/1.1[0m" 404 -
+2025-05-25 20:06:05,922 - INFO -  * Detected change in 'D:\\Academics\\AI\\Test Sample Plant\\Plant-Disease-Detection\\plant_disease_detection\\app.py', reloading
+2025-05-25 20:06:08,664 - INFO -  * Restarting with stat
+2025-05-25 20:06:14,465 - INFO - Updated permissions for directory: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-25 20:06:14,481 - INFO - Updated permissions for directory: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static
+2025-05-25 20:06:14,481 - INFO - Loading model from: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-25 20:06:16,531 - INFO - Model loaded successfully
+2025-05-25 20:06:16,531 - INFO - Starting server with upload folder: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-25 20:06:16,531 - WARNING -  * Debugger is active!
+2025-05-25 20:06:16,551 - INFO -  * Debugger PIN: 221-383-629
+2025-05-25 20:06:16,816 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-25 20:07:26,246 - INFO -  * Detected change in 'D:\\Academics\\AI\\Test Sample Plant\\Plant-Disease-Detection\\plant_disease_detection\\app.py', reloading
+2025-05-25 20:07:26,879 - INFO -  * Restarting with stat
+2025-05-25 20:07:32,536 - INFO - Updated permissions for directory: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-25 20:07:32,536 - INFO - Updated permissions for directory: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static
+2025-05-25 20:07:32,536 - INFO - Loading model from: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-25 20:07:34,694 - INFO - Model loaded successfully
+2025-05-25 20:07:34,710 - INFO - Starting server with upload folder: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-25 20:07:34,710 - WARNING -  * Debugger is active!
+2025-05-25 20:07:34,723 - INFO -  * Debugger PIN: 221-383-629
+2025-05-25 20:07:34,977 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-25 20:07:55,424 - INFO - 127.0.0.1 - - [25/May/2025 20:07:55] "GET / HTTP/1.1" 200 -
+2025-05-25 20:07:55,730 - INFO - 127.0.0.1 - - [25/May/2025 20:07:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-25 20:08:11,226 - INFO - Received prediction request
+2025-05-25 20:08:11,226 - ERROR - No image data received
+2025-05-25 20:08:11,227 - INFO - 127.0.0.1 - - [25/May/2025 20:08:11] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2025-05-25 20:08:35,624 - INFO - 127.0.0.1 - - [25/May/2025 20:08:35] "GET / HTTP/1.1" 200 -
+2025-05-25 20:08:35,881 - INFO - 127.0.0.1 - - [25/May/2025 20:08:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 23:18:38,796 - INFO - Updated permissions for directory: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-27 23:18:38,796 - INFO - Updated permissions for directory: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static
+2025-05-27 23:18:38,796 - INFO - Loading model from: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-27 23:18:40,755 - INFO - Model loaded successfully
+2025-05-27 23:18:40,771 - INFO - Starting server with upload folder: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-27 23:18:40,890 - INFO -  * Restarting with stat
+2025-05-27 23:18:46,190 - INFO - Updated permissions for directory: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-27 23:18:46,192 - INFO - Updated permissions for directory: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static
+2025-05-27 23:18:46,192 - INFO - Loading model from: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-27 23:18:48,156 - INFO - Model loaded successfully
+2025-05-27 23:18:48,172 - INFO - Starting server with upload folder: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-27 23:18:48,172 - WARNING -  * Debugger is active!
+2025-05-27 23:18:48,186 - INFO -  * Debugger PIN: 126-940-928
+2025-05-27 23:18:48,450 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-27 23:19:08,024 - INFO - 127.0.0.1 - - [27/May/2025 23:19:08] "GET / HTTP/1.1" 200 -
+2025-05-27 23:19:08,335 - INFO - 127.0.0.1 - - [27/May/2025 23:19:08] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-27 23:19:08,461 - INFO - 127.0.0.1 - - [27/May/2025 23:19:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-27 23:22:52,509 - INFO - 127.0.0.1 - - [27/May/2025 23:22:52] "GET / HTTP/1.1" 200 -
+2025-05-27 23:22:52,776 - INFO - 127.0.0.1 - - [27/May/2025 23:22:52] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-27 23:25:21,463 - INFO -  * Detected change in 'D:\\Academics\\AI\\Test Sample Plant\\Plant-Disease-Detection\\plant_disease_detection\\app.py', reloading
+2025-05-27 23:25:22,094 - INFO -  * Restarting with stat
+2025-05-27 23:25:27,887 - INFO - Updated permissions for directory: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-27 23:25:27,910 - INFO - Updated permissions for directory: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static
+2025-05-27 23:25:27,910 - INFO - Loading model from: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-27 23:25:29,867 - INFO - Model loaded successfully
+2025-05-27 23:25:29,883 - INFO - Starting server with upload folder: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-27 23:25:29,883 - WARNING -  * Debugger is active!
+2025-05-27 23:25:29,895 - INFO -  * Debugger PIN: 126-940-928
+2025-05-27 23:25:30,148 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-27 23:25:56,295 - INFO -  * Detected change in 'D:\\Academics\\AI\\Test Sample Plant\\Plant-Disease-Detection\\plant_disease_detection\\app.py', reloading
+2025-05-27 23:25:56,893 - INFO -  * Restarting with stat
+2025-05-27 23:26:02,192 - INFO - Updated permissions for directory: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-27 23:26:02,192 - INFO - Updated permissions for directory: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static
+2025-05-27 23:26:02,192 - INFO - Loading model from: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-27 23:26:04,211 - INFO - Model loaded successfully
+2025-05-27 23:26:04,218 - INFO - Starting server with upload folder: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-27 23:26:04,218 - WARNING -  * Debugger is active!
+2025-05-27 23:26:04,229 - INFO -  * Debugger PIN: 126-940-928
+2025-05-27 23:26:04,490 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-27 23:26:11,061 - INFO - 127.0.0.1 - - [27/May/2025 23:26:11] "GET / HTTP/1.1" 200 -
+2025-05-27 23:26:11,381 - INFO - 127.0.0.1 - - [27/May/2025 23:26:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 23:27:38,477 - INFO -  * Detected change in 'D:\\Academics\\AI\\Test Sample Plant\\Plant-Disease-Detection\\plant_disease_detection\\app.py', reloading
+2025-05-27 23:27:39,115 - INFO -  * Restarting with stat
+2025-05-27 23:27:44,611 - INFO - Updated permissions for directory: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-27 23:27:44,611 - INFO - Updated permissions for directory: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static
+2025-05-27 23:27:44,611 - INFO - Loading model from: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-27 23:27:46,568 - INFO - Model loaded successfully
+2025-05-27 23:27:46,577 - INFO - Starting server with upload folder: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-27 23:27:46,577 - WARNING -  * Debugger is active!
+2025-05-27 23:27:46,589 - INFO -  * Debugger PIN: 126-940-928
+2025-05-27 23:27:46,842 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-27 23:27:49,482 - INFO -  * Detected change in 'D:\\Academics\\AI\\Test Sample Plant\\Plant-Disease-Detection\\plant_disease_detection\\app.py', reloading
+2025-05-27 23:27:50,073 - INFO -  * Restarting with stat
+2025-05-27 23:27:55,396 - INFO - Updated permissions for directory: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-27 23:27:55,396 - INFO - Updated permissions for directory: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static
+2025-05-27 23:27:55,396 - INFO - Loading model from: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-27 23:27:57,638 - INFO - Model loaded successfully
+2025-05-27 23:27:57,640 - INFO - Starting server with upload folder: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-27 23:27:57,642 - WARNING -  * Debugger is active!
+2025-05-27 23:27:57,653 - INFO -  * Debugger PIN: 126-940-928
+2025-05-27 23:27:57,904 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-27 23:28:01,857 - INFO - 127.0.0.1 - - [27/May/2025 23:28:01] "GET / HTTP/1.1" 200 -
+2025-05-27 23:28:02,182 - INFO - 127.0.0.1 - - [27/May/2025 23:28:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 23:28:02,187 - INFO - 127.0.0.1 - - [27/May/2025 23:28:02] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-05-27 23:28:07,658 - INFO - 127.0.0.1 - - [27/May/2025 23:28:07] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-27 23:28:19,515 - INFO - Received prediction request
+2025-05-27 23:28:19,515 - DEBUG - Request files: ImmutableMultiDict([('image', <FileStorage: '9ed17032dce2f984.jpg' ('image/jpeg')>)])
+2025-05-27 23:28:19,515 - DEBUG - Request form: ImmutableMultiDict([])
+2025-05-27 23:28:19,515 - DEBUG - Request json: None
+2025-05-27 23:28:19,546 - INFO - Saved image to: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250527_232819.jpg
+2025-05-27 23:28:20,196 - INFO - Image preprocessed successfully
+2025-05-27 23:28:22,094 - INFO - Prediction: Rust, Confidence: 0.4604881703853607
+2025-05-27 23:28:22,095 - INFO - Saved prediction to history: Rust
+2025-05-27 23:28:22,112 - INFO - 127.0.0.1 - - [27/May/2025 23:28:22] "POST /predict HTTP/1.1" 200 -
+2025-05-27 23:28:22,112 - INFO - 127.0.0.1 - - [27/May/2025 23:28:22] "GET /static/uploads/plant_20250527_232819.jpg HTTP/1.1" 200 -
+2025-05-27 23:28:22,484 - INFO - 127.0.0.1 - - [27/May/2025 23:28:22] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-27 23:29:34,338 - INFO - Received prediction request
+2025-05-27 23:29:34,338 - DEBUG - Request files: ImmutableMultiDict([('image', <FileStorage: '83a75e2de0cb984b.jpg' ('image/jpeg')>)])
+2025-05-27 23:29:34,338 - DEBUG - Request form: ImmutableMultiDict([])
+2025-05-27 23:29:34,338 - DEBUG - Request json: None
+2025-05-27 23:29:34,338 - INFO - Saved image to: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250527_232934.jpg
+2025-05-27 23:29:34,687 - INFO - Image preprocessed successfully
+2025-05-27 23:29:34,815 - INFO - Prediction: Rust, Confidence: 0.5787152647972107
+2025-05-27 23:29:34,820 - INFO - Saved prediction to history: Rust
+2025-05-27 23:29:34,820 - INFO - 127.0.0.1 - - [27/May/2025 23:29:34] "POST /predict HTTP/1.1" 200 -
+2025-05-27 23:29:34,820 - INFO - 127.0.0.1 - - [27/May/2025 23:29:34] "GET /static/uploads/plant_20250527_232934.jpg HTTP/1.1" 200 -
+2025-05-27 23:29:35,203 - INFO - 127.0.0.1 - - [27/May/2025 23:29:35] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-27 23:29:44,717 - INFO - Received prediction request
+2025-05-27 23:29:44,717 - DEBUG - Request files: ImmutableMultiDict([('image', <FileStorage: '84c2b48da27b8cf7.jpg' ('image/jpeg')>)])
+2025-05-27 23:29:44,717 - DEBUG - Request form: ImmutableMultiDict([])
+2025-05-27 23:29:44,717 - DEBUG - Request json: None
+2025-05-27 23:29:44,717 - INFO - Saved image to: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250527_232944.jpg
+2025-05-27 23:29:45,084 - INFO - Image preprocessed successfully
+2025-05-27 23:29:45,204 - INFO - Prediction: Rust, Confidence: 0.5674846768379211
+2025-05-27 23:29:45,204 - INFO - Saved prediction to history: Rust
+2025-05-27 23:29:45,204 - INFO - 127.0.0.1 - - [27/May/2025 23:29:45] "POST /predict HTTP/1.1" 200 -
+2025-05-27 23:29:45,218 - INFO - 127.0.0.1 - - [27/May/2025 23:29:45] "GET /static/uploads/plant_20250527_232944.jpg HTTP/1.1" 200 -
+2025-05-27 23:29:45,567 - INFO - 127.0.0.1 - - [27/May/2025 23:29:45] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-27 23:33:03,099 - INFO - 127.0.0.1 - - [27/May/2025 23:33:03] "GET / HTTP/1.1" 200 -
+2025-05-27 23:33:03,368 - INFO - 127.0.0.1 - - [27/May/2025 23:33:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 23:33:03,441 - INFO - 127.0.0.1 - - [27/May/2025 23:33:03] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-05-27 23:33:03,500 - INFO - 127.0.0.1 - - [27/May/2025 23:33:03] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-27 23:34:13,347 - INFO - 127.0.0.1 - - [27/May/2025 23:34:13] "GET / HTTP/1.1" 200 -
+2025-05-27 23:34:13,610 - INFO - 127.0.0.1 - - [27/May/2025 23:34:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 23:34:13,681 - INFO - 127.0.0.1 - - [27/May/2025 23:34:13] "GET /static/js/main.js HTTP/1.1" 200 -
+2025-05-27 23:34:13,742 - INFO - 127.0.0.1 - - [27/May/2025 23:34:13] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-27 23:34:21,623 - INFO - Received prediction request
+2025-05-27 23:34:21,623 - DEBUG - Request files: ImmutableMultiDict([('image', <FileStorage: '83c2939deb266572.jpg' ('image/jpeg')>)])
+2025-05-27 23:34:21,623 - DEBUG - Request form: ImmutableMultiDict([])
+2025-05-27 23:34:21,623 - DEBUG - Request json: None
+2025-05-27 23:34:21,623 - INFO - Saved image to: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250527_233421.jpg
+2025-05-27 23:34:21,964 - INFO - Image preprocessed successfully
+2025-05-27 23:34:22,088 - INFO - Prediction: Rust, Confidence: 0.7791780829429626
+2025-05-27 23:34:22,089 - INFO - Saved prediction to history: Rust
+2025-05-27 23:34:22,089 - INFO - 127.0.0.1 - - [27/May/2025 23:34:22] "POST /predict HTTP/1.1" 200 -
+2025-05-27 23:34:22,089 - INFO - 127.0.0.1 - - [27/May/2025 23:34:22] "GET /static/uploads/plant_20250527_233421.jpg HTTP/1.1" 200 -
+2025-05-27 23:34:22,464 - INFO - 127.0.0.1 - - [27/May/2025 23:34:22] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-27 23:37:53,846 - INFO - Updated permissions for directory: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-27 23:37:53,846 - INFO - Updated permissions for directory: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static
+2025-05-27 23:37:53,846 - INFO - Loading model from: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-27 23:37:55,826 - INFO - Model loaded successfully
+2025-05-27 23:37:55,837 - INFO - Starting server with upload folder: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-27 23:37:55,846 - INFO -  * Restarting with stat
+2025-05-27 23:38:01,165 - INFO - Updated permissions for directory: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-27 23:38:01,165 - INFO - Updated permissions for directory: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static
+2025-05-27 23:38:01,165 - INFO - Loading model from: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\models\best_model.keras
+2025-05-27 23:38:03,108 - INFO - Model loaded successfully
+2025-05-27 23:38:03,124 - INFO - Starting server with upload folder: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads
+2025-05-27 23:38:03,124 - WARNING -  * Debugger is active!
+2025-05-27 23:38:03,136 - INFO -  * Debugger PIN: 126-940-928
+2025-05-27 23:38:03,390 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-05-27 23:38:24,231 - INFO - 127.0.0.1 - - [27/May/2025 23:38:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-27 23:38:32,760 - INFO - 127.0.0.1 - - [27/May/2025 23:38:32] "GET / HTTP/1.1" 200 -
+2025-05-27 23:38:33,079 - INFO - 127.0.0.1 - - [27/May/2025 23:38:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-27 23:38:33,083 - INFO - 127.0.0.1 - - [27/May/2025 23:38:33] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2025-05-27 23:38:33,788 - INFO - 127.0.0.1 - - [27/May/2025 23:38:33] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-27 23:38:44,667 - INFO - Received prediction request
+2025-05-27 23:38:44,667 - DEBUG - Request files: ImmutableMultiDict([('image', <FileStorage: '83c2939deb266572.jpg' ('image/jpeg')>)])
+2025-05-27 23:38:44,667 - DEBUG - Request form: ImmutableMultiDict([])
+2025-05-27 23:38:44,667 - DEBUG - Request json: None
+2025-05-27 23:38:44,667 - INFO - Saved image to: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250527_233844.jpg
+2025-05-27 23:38:44,916 - INFO - Image preprocessed successfully
+2025-05-27 23:38:46,882 - INFO - Prediction: Rust, Confidence: 0.7791780829429626
+2025-05-27 23:38:46,882 - INFO - Saved prediction to history: Rust
+2025-05-27 23:38:46,882 - INFO - 127.0.0.1 - - [27/May/2025 23:38:46] "POST /predict HTTP/1.1" 200 -
+2025-05-27 23:38:46,898 - INFO - 127.0.0.1 - - [27/May/2025 23:38:46] "GET /static/uploads/plant_20250527_233844.jpg HTTP/1.1" 200 -
+2025-05-27 23:38:47,266 - INFO - 127.0.0.1 - - [27/May/2025 23:38:47] "GET /update_analytics HTTP/1.1" 200 -
+2025-05-27 23:39:04,877 - INFO - Received prediction request
+2025-05-27 23:39:04,877 - DEBUG - Request files: ImmutableMultiDict([('image', <FileStorage: '83c2939deb266572.jpg' ('image/jpeg')>)])
+2025-05-27 23:39:04,877 - DEBUG - Request form: ImmutableMultiDict([])
+2025-05-27 23:39:04,877 - DEBUG - Request json: None
+2025-05-27 23:39:04,877 - INFO - Saved image to: D:\Academics\AI\Test Sample Plant\Plant-Disease-Detection\plant_disease_detection\static\uploads\plant_20250527_233904.jpg
+2025-05-27 23:39:05,126 - INFO - Image preprocessed successfully
+2025-05-27 23:39:05,241 - INFO - Prediction: Rust, Confidence: 0.7791780829429626
+2025-05-27 23:39:05,242 - INFO - Saved prediction to history: Rust
+2025-05-27 23:39:05,242 - INFO - 127.0.0.1 - - [27/May/2025 23:39:05] "POST /predict HTTP/1.1" 200 -
+2025-05-27 23:39:05,242 - INFO - 127.0.0.1 - - [27/May/2025 23:39:05] "GET /static/uploads/plant_20250527_233904.jpg HTTP/1.1" 200 -
+2025-05-27 23:39:05,609 - INFO - 127.0.0.1 - - [27/May/2025 23:39:05] "GET /update_analytics HTTP/1.1" 200 -

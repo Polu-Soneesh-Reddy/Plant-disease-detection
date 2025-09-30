@@ -1,1 +1,2 @@
-# Plant-disease-detection
+# Plant-Disease-Detection
+Machine Learning Application

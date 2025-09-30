@@ -1,0 +1,25 @@
+# Ignore the virtual environment folder
+.venv/
+
+# Ignore the data folder
+data/
+
+# Ignore the logs folder
+logs/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore system files (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore the app log file
+app.log
+
+# Ignore temporary files
+*.swp
+*.bak
+*.tmp

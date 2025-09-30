@@ -1,0 +1,18 @@
+# Set all files to automatically detect and normalize line endings based on the operating system
+* text=auto
+
+# Force .py files to use LF endings (Linux-style line endings)
+*.py text eol=lf
+
+# Force .sh files to use LF endings (Linux-style line endings)
+*.sh text eol=lf
+
+# Force .txt files to use CRLF endings (Windows-style line endings)
+*.txt text eol=crlf
+
+# Ensure images and binary files are treated as binary and line endings are not modified
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.zip binary
