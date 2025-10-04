@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Health Classifier</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <h1><i class="fas fa-leaf"></i> Plant Health Classifier</h1>
+                <p class="subtitle">Advanced AI-powered plant disease detection system</p>
+            </div>
+        </header>
+
+        <div class="info-section">
+            <h2>About Plant Disease Classification</h2>
+            <div class="info-description">
+                <p>Our advanced AI system uses deep learning to accurately identify plant diseases from leaf images. This tool helps farmers, gardeners, and plant enthusiasts quickly diagnose plant health issues and take appropriate action.</p>
+            </div>
+            <div class="info-grid">
+                <!-- Healthy Card -->
+                <div class="info-card">
+                    <div class="card-icon healthy">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Healthy Leaves</h3>
+                    <p>Characteristics of healthy plant leaves:</p>
+                    <ul>
+                        <li>Uniform green color</li>
+                        <li>No spots or discoloration</li>
+                        <li>Natural leaf structure</li>
+                        <li>Smooth surface</li>
+                        <li>Proper leaf shape</li>
+                        <li>No wilting or curling</li>
+                    </ul>
+                </div>
+                <!-- Powdery Card -->
+                <div class="info-card">
+                    <div class="card-icon powdery">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Powdery Mildew</h3>
+                    <p>Signs of powdery mildew infection:</p>
+                    <ul>
+                        <li>White powdery spots</li>
+                        <li>Fuzzy coating on leaves</li>
+                        <li>Yellow or brown patches</li>
+                        <li>Distorted leaf growth</li>
+                        <li>Leaf curling</li>
+                        <li>Premature leaf drop</li>
+                    </ul>
+                </div>
+                <!-- Rust Card -->
+                <div class="info-card">
+                    <div class="card-icon rust">
+                        <i class="fas fa-bug"></i>
+                    </div>
+                    <h3>Rust Disease</h3>
+                    <p>Rust disease characteristics:</p>
+                    <ul>
+                        <li>Orange-brown spots</li>
+                        <li>Powdery pustules</li>
+                        <li>Leaf discoloration</li>
+                        <li>Spots on both sides</li>
+                        <li>Leaf yellowing</li>
+                        <li>Reduced plant vigor</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <main>
+            <!-- Upload Section -->
+            <div class="upload-section">
+                <form id="uploadForm" method="POST" enctype="multipart/form-data">
+                    <label for="fileInput" class="upload-box" id="dropZone">
+                        <div class="upload-icon">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                        </div>
+                        <p>Drag & Drop or Click to Upload</p>
+                        <p class="file-hint">(Supported format: JPEG)</p>
+                        <input type="file" id="fileInput" name="image" accept=".jpg,.jpeg" required>
+                    </label>
+                    <button type="submit" id="analyzeBtn" disabled>
+                        <i class="fas fa-microscope"></i> Analyze Plant
+                    </button>
+                </form>
+                <img id="preview" style="display:none; max-width: 150px; margin-top: 10px;" alt="Preview">
+                <div id="errorMessage" class="error-message" style="display: none;"></div>
+            </div>
+
+            <!-- Result Section -->
+            <div class="result-section" style="display: none;">
+                <h2>Analysis Result</h2>
+                <div class="result-card">
+                    <div class="result-image">
+                        <img id="resultImage" src="" alt="Analyzed Plant">
+                        <div class="image-overlay">
+                            <span class="zoom-hint"><i class="fas fa-search-plus"></i> Click to zoom</span>
+                        </div>
+                    </div>
+                    <div class="result-details">
+                        <h3>Diagnosis:</h3>
+                        <p id="prediction" class="diagnosis-text"></p>
+                        <div class="confidence-meter">
+                            <span>Confidence:</span>
+                            <div class="meter">
+                                <div id="confidenceBar"></div>
+                            </div>
+                            <span id="confidenceValue"></span>
+                        </div>
+                        <div class="diagnosis-details">
+                            <h4><i class="fas fa-clipboard-list"></i> Recommended Actions:</h4>
+                            <div id="recommendationText"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Analytics Section -->
+            <div class="analytics-section">
+                <h2>Analytics Dashboard</h2>
+                <div class="charts-container">
+                    <div class="chart" id="distributionChart">
+                        <div class="chart-loading">
+                            <i class="fas fa-chart-pie"></i>
+                            <p>Loading distribution data...</p>
+                        </div>
+                    </div>
+                    <div class="chart" id="trendChart">
+                        <div class="chart-loading">
+                            <i class="fas fa-chart-line"></i>
+                            <p>Loading trend data...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Image Modal -->
+        <div id="imageModal" class="modal">
+            <span class="close-modal">&times;</span>
+            <img id="modalImage" class="modal-content">
+        </div>
+    </div>
+
+    <!-- Chart JS from Flask -->
+    <script type="text/javascript">
+        {% if pie_chart %}
+            const pieChartData = {{ pie_chart | tojson }};
+            Plotly.newPlot('distributionChart', pieChartData.data, pieChartData.layout);
+        {% endif %}
+
+        {% if trend_chart %}
+            const trendChartData = {{ trend_chart | tojson }};
+            Plotly.newPlot('trendChart', trendChartData.data, trendChartData.layout);
+        {% endif %}
+    </script>
+
+    <!-- Add main.js -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
